@@ -1,0 +1,18 @@
+USED_CARS
+
+id - INT - PRIMARY_KEY (NOTNULL, UNIQUE, INDEX) - AUTO_INCREMENT
+brand - VARCHAR(30) - NOTNULL
+model - VARCHAR(30) - NOTNULL
+version - VARCHAR(50) - NOTNULL
+price - DECIMAL(9,2)
+fuel - VARCHAR(16)
+body - VARCHAR(20)
+registration_date - DATE - NOTNULL
+km_PER_1000  - SMALLINT - NOTNULL
+gear_box - VARCHAR(16)
+seats - TINYINT
+doors - TINYINT
+warranty - TINYINT
+number_of_owners - TINYINT
+conditions - VARCHAR(255)
+all_original - TINYINT 
